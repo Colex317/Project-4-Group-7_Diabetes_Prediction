@@ -19,6 +19,8 @@
 
 ## References
 
-Centers for Disease Control and Prevention. (2022). Assessing Your Weight. Retrieved from https://www.cdc.gov/healthyweight/assessing/index.html#:~:text=If%20your%20BMI%20is%20less,falls%20within%20the%20obese%20range.
+Centers for Disease Control and Prevention. (2024). Body Mass Index (BMI). Retrieved from https://www.cdc.gov/healthyweight/assessing/bmi/index.html
 
-Yale Medicaine. (n.d.). What do A1C test results mean? Retrieved from https://www.yalemedicine.org/conditions/hemoglobin-a1c-test-hba1c-test-blood-sugar
+Centers for Disease Control and Prevention. (n.d.). Testing for Diabetes. Retrieved from https://www.cdc.gov/diabetes/diabetes-testing/?CDC_AAref_Val=https://www.cdc.gov/diabetes/basics/getting-tested.html
+
+Yale Medicine. (n.d.). What do A1C test results mean? Retrieved from https://www.yalemedicine.org/conditions/hemoglobin-a1c-test-hba1c-test-blood-sugar
