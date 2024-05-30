@@ -1,4 +1,4 @@
-# Project-4-Group-7_Diabetes_Prediction
+# Project 4 Group 7: Diabetes Prediction
 
 # Steps
 
@@ -14,6 +14,10 @@
 
    - convert gender and smoking_history to numeric boolean values.
    - convert BMI, HbA1c, and blood glucose levels according to ranges.
+
+
+
+
 
 
 
