@@ -12,6 +12,8 @@ CREATE TABLE dm_prediction (
 	);
 	
 
+
+-- View the dm_prediction table:
 SELECT *
 FROM dm_prediction
 ;
