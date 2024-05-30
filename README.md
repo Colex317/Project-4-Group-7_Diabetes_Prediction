@@ -2,17 +2,26 @@
 
 # Steps
 
-1. Ingest data into/from SQL
+1. Obtain the dataset [Diabetes Prediction by Mohammed Mustafa](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset) from Kaggle and download it to the local machine
+
+2. Create a database and table schema in PostgreSQL. Then, verify the data was imported correctly.
 
 <img width="1054" alt="image" src="https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/assets/148498483/6d36bfb2-93ea-49c1-84cb-e7ee22737375">
 
-2. Clean data in pandas
+3. Retrieve the dataset using SQLAlchemy in Python
 
-3. Predictive modeling in Scikit-learn
+4. Clean and transform the dataset
 
-4. Binary classification on Diabetes dataset using multiple predictive modeling techniques
+   - convert gender and smoking_history to numeric boolean values.
+   - convert BMI, HbA1c, and blood glucose levels according to ranges.
 
-5. Potential Modeling Techniques: Logistic regression, decision tree / random forest, support vector machine, deep learning
+
+
+. Predictive modeling in Scikit-learn
+
+. Binary classification on Diabetes dataset using multiple predictive modeling techniques
+
+. Potential Modeling Techniques: Logistic regression, decision tree / random forest, support vector machine, deep learning
 
 
 
