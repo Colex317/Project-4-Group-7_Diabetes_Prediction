@@ -38,7 +38,7 @@
 
 | Models                  |   Accuracy   |
 |-------------------------|--------------|
-| Logistic Regression     |              |
+| Logistic Regression     |      0.93    |
 | Decision Tree           |              |
 | Random Forest           |              |
 | Support Vector Machine  |              |
