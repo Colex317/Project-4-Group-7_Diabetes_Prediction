@@ -2,6 +2,8 @@
 
 # Steps
 
+### Obtain, clean, and transform the dataset:
+
 1. Obtain the dataset [Diabetes Prediction by Mohammed Mustafa](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset) from Kaggle and download it to the local machine
 
 2. Create a database and table schema in PostgreSQL. Then, verify the data was imported correctly.
@@ -20,13 +22,27 @@
 
 
 
-
 . Predictive modeling in Scikit-learn
 
 . Binary classification on Diabetes dataset using multiple predictive modeling techniques
 
-. Potential Modeling Techniques: Logistic regression, decision tree / random forest, support vector machine, deep learning
+### Modeling Techniques 
 
+1. Logistic Regression
+2. Decision Tree
+3. Random Forest 
+4. Support Vector Machine
+5. Deep Learning
+
+# Result
+
+| Models                  |   Accuracy   |
+|-------------------------|--------------|
+| Logistic Regression     |      0.93    |
+| Decision Tree           |      1.00    |
+| Random Forest           |      0.92    |
+| Support Vector Machine  |              |
+| Deep Learning           |              |
 
 
 
