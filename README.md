@@ -22,7 +22,6 @@
 
 
 
-
 . Predictive modeling in Scikit-learn
 
 . Binary classification on Diabetes dataset using multiple predictive modeling techniques
@@ -30,9 +29,10 @@
 ### Modeling Techniques 
 
 1. Logistic Regression
-2. Decision Tree / Random Forest 
-3. Support Vector Machine
-4. Deep Learning
+2. Decision Tree
+3. Random Forest 
+4. Support Vector Machine
+5. Deep Learning
 
 
 
