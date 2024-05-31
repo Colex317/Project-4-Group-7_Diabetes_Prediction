@@ -34,6 +34,15 @@
 4. Support Vector Machine
 5. Deep Learning
 
+# Result
+
+| Models                  |   Accuracy   |
+|-------------------------|--------------|
+| Logistic Regression     |              |
+| Decision Tree           |              |
+| Random Forest           |              |
+| Support Vector Machine  |              |
+| Deel Learning           |              |
 
 
 
