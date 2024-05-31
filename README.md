@@ -2,6 +2,8 @@
 
 # Steps
 
+### Obtain, clean, and transform the dataset:
+
 1. Obtain the dataset [Diabetes Prediction by Mohammed Mustafa](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset) from Kaggle and download it to the local machine
 
 2. Create a database and table schema in PostgreSQL. Then, verify the data was imported correctly.
