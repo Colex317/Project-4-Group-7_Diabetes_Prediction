@@ -27,7 +27,12 @@
 
 . Binary classification on Diabetes dataset using multiple predictive modeling techniques
 
-. Potential Modeling Techniques: Logistic regression, decision tree / random forest, support vector machine, deep learning
+### Modeling Techniques 
+
+1. Logistic Regression
+2. Decision Tree / Random Forest 
+3. Support Vector Machine
+4. Deep Learning
 
 
 
