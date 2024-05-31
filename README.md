@@ -42,7 +42,7 @@
 | Decision Tree           |              |
 | Random Forest           |              |
 | Support Vector Machine  |              |
-| Deel Learning           |              |
+| Deep Learning           |              |
 
 
 
