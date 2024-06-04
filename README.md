@@ -18,8 +18,8 @@
    - convert BMI, HbA1c, and blood glucose levels according to ranges.
 
    b. Using One-Hot Encoding and StandardScalar:
-   - One-Hot Encoding to convert the categorical columns
-   - Standardize the numerical columns using StandardScaler
+   - One-Hot Encoding to convert the categorical columns (gender and smoking_history)
+   - Standardize the numerical columns using StandardScaler (age, BMI, HbA1c_level, blood glucose level)
 
 
 
