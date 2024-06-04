@@ -19,7 +19,7 @@
 
    b. Using One-Hot Encoding and StandardScalar:
    - One-Hot Encoding to convert the categorical columns (gender and smoking_history)
-   - Standardize the numerical columns using StandardScaler (age, BMI, HbA1c_level, blood glucose level)
+   - Standardize the numerical columns using StandardScaler (age, BMI, HbA1c and blood glucose level)
 
 
 
