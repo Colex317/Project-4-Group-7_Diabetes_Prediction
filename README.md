@@ -13,6 +13,7 @@
 3. Retrieve the dataset using SQLAlchemy in Python
 
 4. Clean and transform the dataset:
+   
    a. Using label and ordinal encoding:   
    - convert gender and smoking_history to numeric boolean values.
    - convert BMI, HbA1c, and blood glucose levels according to ranges.
