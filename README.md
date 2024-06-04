@@ -34,16 +34,27 @@
 4. Support Vector Machine
 5. Deep Learning
 
-# Result
+# Result - First dataset (OrdinalEncoder)
 
 | Models                  |   Accuracy   |
 |-------------------------|--------------|
 | Logistic Regression     |      0.93    |
-| Decision Tree           |      1.00    |
+| Decision Tree           |      1.00(?) |
 | Random Forest           |      0.92    |
-| Support Vector Machine  |              |
-| Deep Learning           |              |
+| Support Vector Machine  |      0.92    |
+| Deep Learning           |      0.93    |
+| Deep Learning (Tuned)   |      0.93    |
 
+# Result - Second dataset (OneHotEncoder and StandardScaler)
+
+| Models                  |   Accuracy   |
+|-------------------------|--------------|
+| Logistic Regression     |      0.96    |
+| Decision Tree           |              |
+| Random Forest           |              |
+| Support Vector Machine  |      0.97    |
+| Deep Learning           |      0.97    |
+| Deep Learning (Tuned)   |      0.97    |
 
 
 ## References
