@@ -39,7 +39,7 @@
 | Models                  |   Accuracy   |
 |-------------------------|--------------|
 | Logistic Regression     |      0.93    |
-| Decision Tree           |      1.00(?) |
+| Decision Tree           |      0.92    |
 | Random Forest           |      0.92    |
 | Support Vector Machine  |      0.92    |
 | Deep Learning           |      0.93    |
@@ -50,8 +50,8 @@
 | Models                  |   Accuracy   |
 |-------------------------|--------------|
 | Logistic Regression     |      0.96    |
-| Decision Tree           |              |
-| Random Forest           |              |
+| Decision Tree           |      0.95    |
+| Random Forest           |      0.96    |
 | Support Vector Machine  |      0.97    |
 | Deep Learning           |      0.97    |
 | Deep Learning (Tuned)   |      0.97    |
