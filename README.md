@@ -36,7 +36,7 @@
 4. Support Vector Machine
 5. Deep Learning
 
-# Result - First dataset (OrdinalEncoder and LabelEncoder)
+# Result - First dataset (Ordinal Encoding  and Label Encoding using Pandas)
 
 | Models                  |   Accuracy   |
 |-------------------------|--------------|
