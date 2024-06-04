@@ -12,13 +12,15 @@
 
 3. Retrieve the dataset using SQLAlchemy in Python
 
-4. Clean and transform the dataset
-
+4. Clean and transform the dataset:
+   
+   a. Using label and ordinal encoding:   
    - convert gender and smoking_history to numeric boolean values.
    - convert BMI, HbA1c, and blood glucose levels according to ranges.
 
-
-
+   b. Using One-Hot Encoding and StandardScalar:
+   - One-Hot Encoding to convert the categorical columns (gender and smoking_history)
+   - Standardize the numerical columns using StandardScaler (age, BMI, HbA1c and blood glucose level)
 
 
 
@@ -34,16 +36,27 @@
 4. Support Vector Machine
 5. Deep Learning
 
-# Result
+# Result - First dataset (OrdinalEncoder and LabelEncoder)
 
 | Models                  |   Accuracy   |
 |-------------------------|--------------|
 | Logistic Regression     |      0.93    |
-| Decision Tree           |      1.00    |
+| Decision Tree           |      0.92    |
 | Random Forest           |      0.92    |
-| Support Vector Machine  |              |
-| Deep Learning           |              |
+| Support Vector Machine  |      0.92    |
+| Deep Learning           |      0.93    |
+| Deep Learning (Tuned)   |      0.93    |
 
+# Result - Second dataset (OneHotEncoder and StandardScaler)
+
+| Models                  |   Accuracy   |
+|-------------------------|--------------|
+| Logistic Regression     |      0.96    |
+| Decision Tree           |      0.95    |
+| Random Forest           |      0.96    |
+| Support Vector Machine  |      0.97    |
+| Deep Learning           |      0.97    |
+| Deep Learning (Tuned)   |      0.97    |
 
 
 ## References
