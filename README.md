@@ -32,6 +32,7 @@
 . Binary classification on Diabetes dataset using multiple predictive modeling techniques
 
 <br>
+
 ### Modeling Techniques Utilized
 
 1. Logistic Regression
