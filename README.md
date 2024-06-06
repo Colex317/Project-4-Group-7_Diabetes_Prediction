@@ -22,9 +22,17 @@ The goal of the project is to create, optimize, and evaluate a machine-learning 
 
 1. Obtain the dataset [Diabetes Prediction by Mohammed Mustafa](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset) from Kaggle and download it to the local machine
 
+<img width="1003" alt="image" src="https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/assets/148498483/ca690187-da68-4e67-b747-387a0cb36d75">
+
+<br>
+
+
 2. Create a database and table schema ([diabetes_prediction_schema](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/diabetes_prediction_schema.sql)) in PostgreSQL. Then, verify the data was imported correctly.
 
 <img width="1054" alt="image" src="https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/assets/148498483/6d36bfb2-93ea-49c1-84cb-e7ee22737375">
+
+<br>
+
 
 3. Retrieve the dataset using SQLAlchemy in Python
 
@@ -52,7 +60,7 @@ The goal of the project is to create, optimize, and evaluate a machine-learning 
 
 ## Modeling Techniques Utilized
 
-Different models were used to estimate the likelihood of a patient developing diabetes. By analyzing the features (gender, age, hypertension, heart disease, smoking history, BMI, HbA1c levels, and blood glucose levels), the models aid in predicting whether an individual is at risk for diabetes.
+Different models were used to estimate the likelihood of an individual developing diabetes. By analyzing the features (gender, age, hypertension, heart disease, smoking history, BMI, HbA1c levels, and blood glucose levels), the models aid in predicting whether an individual is at risk for diabetes.
 
 1. Logistic Regression
 2. Decision Tree
@@ -65,38 +73,43 @@ Different models were used to estimate the likelihood of a patient developing di
 
 ## Logistic Regression
 
-Logistic regression is a predictive analysis that estimates/models the probability of an event occurring based on a given dataset. This dataset contains both independent variables, or predictors, and their corresponding dependent variables, or responses. 
+Logistic regression is a predictive analysis that estimates/models the probability of an event occurring based on a given dataset. This dataset contains both independent variables, or predictors, and their corresponding dependent variables, or responses. Logistic regression is a widely used statistical method for binary classification problems, making it an ideal choice for diabetes prediction. 
 
 1. [Logistic Regression Model (using the label and ordinal encoding dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/diabetes_prediction_logistic_regression_label_encoding.ipynb)
 2. [Logistic Regression Model (using the One-Hot Encoding and StandardScaler dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/diabetes_prediction_logistic_regression_one_hot_encoding.ipynb)
 
 <br>
-<be>
+
 
 ## Decision Tree
-#### Model Description
-Decision tree analysis is the process of drawing a decision tree, which is a graphic representation of various alternative solutions that are available to solve a given problem, in order to determine the most effective courses of action. Decision trees are comprised of nodes and branches - nodes represent a test on an attribute and branches represent potential alternative outcomes. (2)
+
+Decision tree analysis offers a graphic representation of various alternative solutions that are available to solve a given problem in order to determine the most effective courses of action. They are comprised of nodes (a test on an attribute) and branches (represent potential alternative outcomes). Decision trees are a powerful method for classification problems and offer several advantages that make them suitable for diabetes prediction. They are  simple to interpret, flexible, robust, and explain how different health metrics contribute to the prediction of diabetes.
+
+1. [Decision Tree Model (using the label and ordinal encoding dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_Prediction_Decisiontree_label_encoding.ipynb)
+2. [Decision Tree Model (using the One-Hot Encoding and StandardScaler dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_Prediction_Decisiontree_one_hot_encoding.ipynb)
 
 <br>
 
 ## Random Forest
-#### Model Description
-Random forest produces multiple decision trees, randomly choosing features to make decisions when splitting nodes to create each tree. It then takes these randomized observations from each tree and averages them out to build a final model. (3)
+
+Random forest produces multiple decision trees, randomly choosing features to make decisions when splitting nodes to create each tree. It then takes these randomized observations from each tree and averages them out to build a final model. Building multiple decision trees and merging them together enhances accuracy and produces more stable predictions, making this model ideal for diabetes prediction.
 
 1. [Random Forest Model (using the label and ordinal encoding dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/diabetes_prediction_random_forest_label_encoding.ipynb)
 2. [Random Forest Model (using the One-Hot Encoding and StandardScaler dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/diabetes_prediction_random_forest_hot_encoding.ipynb)
+
 <br>
 
 ## Support Vector Machine
-#### Model Description
-A support vector machine (SVM) is a supervised machine learning algorithm that classifies data by finding an optimal line or hyperplane that maximizes the distance between each class in an N-dimensional space. (4)
+A support vector machine (SVM) is a supervised machine learning algorithm that classifies data by finding an optimal line or hyperplane that maximizes the distance between each class in an N-dimensional space. SVM is a good choice when predicting diabetes as it can handle high-dimensional data efficiently and support different kernel functions, enabling flexibility.
 
+??????1. [Support Vector Machine (using the label and ordinal encoding dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_prediction_svm_nn_label_encoding.ipynb)
+?????2. [Support Vector Machine (using the One-Hot Encoding and StandardScaler dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_prediction_svm_nn_one_hot_encoding.ipynb)
 
 <br>
 
 ## Deep Learning Neural Network
-#### Model Description
-Deep learning neural networks, or artificial neural networks, attempts to mimic the human brain through a combination of data inputs, weights, and bias. These elements work together to accurately recognize, classify, and describe objects within the data. (5)
+
+Deep learning neural networks, or artificial neural networks, attempt to mimic the human brain through a combination of data inputs, weights, and biases. These elements work together to accurately recognize, classify, and describe objects within the data. Deep learning neural networks are highly adaptable and can be fine-tuned for specific tasks, such as predicting the onset of diabetes. For this project, following best practice guidelines, the number of nodes in the first hidden layer was chosen to be two times the number of input features within the dataset.
 
 <br>
 
@@ -104,7 +117,7 @@ Deep learning neural networks, or artificial neural networks, attempts to mimic 
 ## Result
 Each model used in this project with the diabetes prediction datasets demonstrated meaningful predictive power greater than 75% classification accuracy:
 
-### First dataset (Ordinal and Label Encoding using Pandas)
+### First dataset (Label and Ordinal Encoding using Pandas)
 
 | Models                  |   Accuracy   |
 |-------------------------|--------------|
