@@ -90,16 +90,16 @@ Random forest produces multiple decision trees, randomly choosing features to ma
 <br>
 
 ## Support Vector Machine
-A support vector machine (SVM) is a supervised machine learning algorithm that classifies data by finding an optimal line or hyperplane that maximizes the distance between each class in an N-dimensional space. (4)
+A support vector machine (SVM) is a supervised machine learning algorithm that classifies data by finding an optimal line or hyperplane that maximizes the distance between each class in an N-dimensional space. SVM is a good choice when predicting diabetes as it can handle high-dimensional data efficiently and support different kernel functions, enabling flexibility.
 
-1. [Support Vector Machine (using the label and ordinal encoding dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_prediction_svm_nn_label_encoding.ipynb)
-2. [Support Vector Machine (using the One-Hot Encoding and StandardScaler dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_prediction_svm_nn_one_hot_encoding.ipynb)
+??????1. [Support Vector Machine (using the label and ordinal encoding dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_prediction_svm_nn_label_encoding.ipynb)
+?????2. [Support Vector Machine (using the One-Hot Encoding and StandardScaler dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_prediction_svm_nn_one_hot_encoding.ipynb)
 
 <br>
 
 ## Deep Learning Neural Network
-#### Model Description
-Deep learning neural networks, or artificial neural networks, attempts to mimic the human brain through a combination of data inputs, weights, and bias. These elements work together to accurately recognize, classify, and describe objects within the data. (5)
+
+Deep learning neural networks, or artificial neural networks, attempt to mimic the human brain through a combination of data inputs, weights, and biases. These elements work together to accurately recognize, classify, and describe objects within the data. Deep learning neural networks are highly adaptable and can be fine-tuned for specific tasks, such as predicting the onset of diabetes. For this project, following best practice guidelines, the number of nodes in the first hidden layer was chosen to be two times the number of input features within the dataset.
 
 <br>
 
