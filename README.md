@@ -9,9 +9,11 @@ Diabetes is a chronic condition characterized by the body's inability to produce
 ## Purpose/Goal of the project 
 
 **Purpose**
+
 This project aims to develop a predictive model for diabetes diagnosis using a dataset containing patient health metrics. It aims to leverage machine learning techniques to accurately predict the presence of diabetes based on various health indicators, including gender, age, hypertension, heart disease, smoking history, BMI, HbA1c levels, and blood glucose levels.
 
 **Project Goal**
+
 The goal of the project is to create, optimize, and evaluate a machine-learning model that can achieve at least 75% classification accuracy or an R-squared value of 0.80 or higher. The project will involve the following key steps:
 
 ## Steps:
