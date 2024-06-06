@@ -22,6 +22,9 @@ The goal of the project is to create, optimize, and evaluate a machine-learning 
 
 1. Obtain the dataset [Diabetes Prediction by Mohammed Mustafa](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset) from Kaggle and download it to the local machine
 
+<img width="1003" alt="image" src="https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/assets/148498483/ca690187-da68-4e67-b747-387a0cb36d75">
+
+
 2. Create a database and table schema ([diabetes_prediction_schema](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/diabetes_prediction_schema.sql)) in PostgreSQL. Then, verify the data was imported correctly.
 
 <img width="1054" alt="image" src="https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/assets/148498483/6d36bfb2-93ea-49c1-84cb-e7ee22737375">
