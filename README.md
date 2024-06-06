@@ -1,6 +1,6 @@
 # Project 4 Group 7: Diabetes Prediction
 
-# Steps
+## Purpose/Goal of the project 
 
 ### Obtain, clean, and transform the dataset:
 
@@ -36,6 +36,15 @@
 4. Support Vector Machine
 5. Deep Learning
 
+
+
+### Logistic Regression
+### Decision Tree
+### Random Forest
+### Support Vector Machine
+### Deep Learning Neural Network
+
+
 # Result - First dataset (Ordinal and Label Encoding using Pandas)
 
 | Models                  |   Accuracy   |
@@ -68,4 +77,3 @@ Centers for Disease Control and Prevention. (n.d.). Testing for Diabetes. Retrie
 Geekforgeeks. (n.d.). Connecting PostgreSQL with SQLAlchemy in Python. Retrieved from https://www.geeksforgeeks.org/connecting-postgresql-with-sqlalchemy-in-python/
 
 Yale Medicine. (n.d.). What do A1C test results mean? Retrieved from https://www.yalemedicine.org/conditions/hemoglobin-a1c-test-hba1c-test-blood-sugar
-
