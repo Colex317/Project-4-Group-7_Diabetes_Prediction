@@ -23,12 +23,16 @@ The goal of the project is to create, optimize, and evaluate a machine-learning 
 1. Obtain the dataset [Diabetes Prediction by Mohammed Mustafa](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset) from Kaggle and download it to the local machine
 
 <img width="1003" alt="image" src="https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/assets/148498483/ca690187-da68-4e67-b747-387a0cb36d75">
+
 <br>
+
 
 2. Create a database and table schema ([diabetes_prediction_schema](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/diabetes_prediction_schema.sql)) in PostgreSQL. Then, verify the data was imported correctly.
 
 <img width="1054" alt="image" src="https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/assets/148498483/6d36bfb2-93ea-49c1-84cb-e7ee22737375">
+
 <br>
+
 
 3. Retrieve the dataset using SQLAlchemy in Python
 
@@ -75,7 +79,7 @@ Logistic regression is a predictive analysis that estimates/models the probabili
 2. [Logistic Regression Model (using the One-Hot Encoding and StandardScaler dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/diabetes_prediction_logistic_regression_one_hot_encoding.ipynb)
 
 <br>
-<be>
+
 
 ## Decision Tree
 
@@ -83,6 +87,7 @@ Decision tree analysis offers a graphic representation of various alternative so
 
 1. [Decision Tree Model (using the label and ordinal encoding dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_Prediction_Decisiontree_label_encoding.ipynb)
 2. [Decision Tree Model (using the One-Hot Encoding and StandardScaler dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_Prediction_Decisiontree_one_hot_encoding.ipynb)
+
 <br>
 
 ## Random Forest
@@ -91,6 +96,7 @@ Random forest produces multiple decision trees, randomly choosing features to ma
 
 1. [Random Forest Model (using the label and ordinal encoding dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/diabetes_prediction_random_forest_label_encoding.ipynb)
 2. [Random Forest Model (using the One-Hot Encoding and StandardScaler dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/diabetes_prediction_random_forest_hot_encoding.ipynb)
+
 <br>
 
 ## Support Vector Machine
@@ -98,6 +104,7 @@ A support vector machine (SVM) is a supervised machine learning algorithm that c
 
 ??????1. [Support Vector Machine (using the label and ordinal encoding dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_prediction_svm_nn_label_encoding.ipynb)
 ?????2. [Support Vector Machine (using the One-Hot Encoding and StandardScaler dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_prediction_svm_nn_one_hot_encoding.ipynb)
+
 <br>
 
 ## Deep Learning Neural Network
