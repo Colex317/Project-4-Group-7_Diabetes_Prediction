@@ -50,6 +50,8 @@ Logistic regression is a predictive analysis that estimates/models the probabili
 
 ## Decision Tree
 ### Model Description
+Decision tree analysis is the process of drawing a decision tree, which is a graphic representation of various alternative solutions that are available to solve a given problem, in order to determine the most effective courses of action. Decision trees are comprised of nodes and branches - nodes represent a test on an attribute and branches represent potential alternative outcomes. (2)
+
 <br>
 
 ## Random Forest
@@ -99,4 +101,6 @@ Geekforgeeks. (n.d.). Connecting PostgreSQL with SQLAlchemy in Python. Retrieved
 Yale Medicine. (n.d.). What do A1C test results mean? Retrieved from https://www.yalemedicine.org/conditions/hemoglobin-a1c-test-hba1c-test-blood-sugar
 
   Samantha Lomuscio. (2022, September 22). Logistic Regression Four Ways with Python. https://library.virginia.edu/data/articles/logistic-regression-four-ways-with-python#:~:text=Logistic%20regression%20is%20a%20predictive,corresponding%20dependent%20variables%2C%20or%20responses
+
+2 Heavy.AI. (2024). Decision Tree Analysis. https://www.heavy.ai/technical-glossary/decision-tree-analysis#:~:text=A%20decision%20tree%20is%20a,the%20best%20courses%20of%20action
 
