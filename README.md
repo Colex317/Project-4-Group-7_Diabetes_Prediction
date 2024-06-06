@@ -88,6 +88,9 @@ Decision tree analysis offers a graphic representation of various alternative so
 1. [Decision Tree Model (using the label and ordinal encoding dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_Prediction_Decisiontree_label_encoding.ipynb)
 2. [Decision Tree Model (using the One-Hot Encoding and StandardScaler dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_Prediction_Decisiontree_one_hot_encoding.ipynb)
 
+<img width="785" alt="image" src="https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/assets/148498483/cd7cff06-3506-4913-8363-50128828d979">
+
+
 <br>
 
 ## Random Forest
