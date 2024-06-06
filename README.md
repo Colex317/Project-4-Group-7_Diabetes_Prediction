@@ -81,14 +81,15 @@ Decision tree analysis is the process of drawing a decision tree, which is a gra
 #### Model Description
 Random forest produces multiple decision trees, randomly choosing features to make decisions when splitting nodes to create each tree. It then takes these randomized observations from each tree and averages them out to build a final model. (3)
 
+1. [Random Forest Model (using the label and ordinal encoding dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/diabetes_prediction_random_forest_label_encoding.ipynb)
+2. [Random Forest Model (using the One-Hot Encoding and StandardScaler dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/diabetes_prediction_random_forest_hot_encoding.ipynb)
 <br>
 
 ## Support Vector Machine
 #### Model Description
 A support vector machine (SVM) is a supervised machine learning algorithm that classifies data by finding an optimal line or hyperplane that maximizes the distance between each class in an N-dimensional space. (4)
 
-1. [Random Forest Model (using the label and ordinal encoding dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/diabetes_prediction_random_forest_label_encoding.ipynb)
-2. [Random Forest Model (using the One-Hot Encoding and StandardScaler dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/diabetes_prediction_random_forest_hot_encoding.ipynb)
+
 <br>
 
 ## Deep Learning Neural Network
