@@ -69,6 +69,8 @@ A support vector machine (SVM) is a supervised machine learning algorithm that c
 
 ## Deep Learning Neural Network
 #### Model Description
+Deep learning neural networks, or artificial neural networks, attempts to mimic the human brain through a combination of data inputs, weights, and bias. These elements work together to accurately recognize, classify, and describe objects within the data. (5)
+
 <br>
 
 
@@ -112,3 +114,5 @@ Yale Medicine. (n.d.). What do A1C test results mean? Retrieved from https://www
 3 Niklas Donges. (2024, March 8). Random Forest: A Complete Guide for Machine Learning. https://builtin.com/data-science/random-forest-algorithm
 
 4 Ibm.com. (2023, December 27). What are support vector machines (SVMs)? https://www.ibm.com/topics/support-vector-machine
+
+5 Ibm.com. (n.d.). What is deep learning? https://www.ibm.com/topics/deep-learning#:~:text=Deep%20learning%20neural%20networks%2C%20or,describe%20objects%20within%20the%20data
