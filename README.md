@@ -65,7 +65,7 @@ Different models were used to estimate the likelihood of a patient developing di
 
 ## Logistic Regression
 
-Logistic regression is a predictive analysis that estimates/models the probability of an event occurring based on a given dataset. This dataset contains both independent variables, or predictors, and their corresponding dependent variables, or responses. 
+Logistic regression is a predictive analysis that estimates/models the probability of an event occurring based on a given dataset. This dataset contains both independent variables, or predictors, and their corresponding dependent variables, or responses. Logistic regression is a widely used statistical method for binary classification problems, making it an ideal choice for diabetes prediction. 
 
 1. [Logistic Regression Model (using the label and ordinal encoding dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/diabetes_prediction_logistic_regression_label_encoding.ipynb)
 2. [Logistic Regression Model (using the One-Hot Encoding and StandardScaler dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/diabetes_prediction_logistic_regression_one_hot_encoding.ipynb)
@@ -74,9 +74,11 @@ Logistic regression is a predictive analysis that estimates/models the probabili
 <be>
 
 ## Decision Tree
-#### Model Description
-Decision tree analysis is the process of drawing a decision tree, which is a graphic representation of various alternative solutions that are available to solve a given problem, in order to determine the most effective courses of action. Decision trees are comprised of nodes and branches - nodes represent a test on an attribute and branches represent potential alternative outcomes. (2)
 
+Decision tree analysis offers a graphic representation of various alternative solutions that are available to solve a given problem in order to determine the most effective courses of action. They are comprised of nodes (a test on an attribute) and branches (represent potential alternative outcomes). Decision trees are a powerful method for classification problems and offer several advantages that make them suitable for diabetes prediction. They are  simple to interpret, flexible, robust, and explain how different health metrics contribute to the prediction of diabetes.
+
+1. [Decision Tree Model (using the label and ordinal encoding dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_Prediction_Decisiontree_label_encoding.ipynb)
+2. [Decision Tree Model (using the One-Hot Encoding and StandardScaler dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_Prediction_Decisiontree_one_hot_encoding.ipynb)
 <br>
 
 ## Random Forest
