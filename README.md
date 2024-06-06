@@ -40,7 +40,6 @@
 5. Deep Learning
 
 
-<img src="images/Header Pics/Logistic Regression 1.png" width="724" height="457">
 
 ## Logistic Regression
 ### Model Description
