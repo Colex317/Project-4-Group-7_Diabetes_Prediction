@@ -1,3 +1,6 @@
+<img src="images/Header Pics/Cover Pic 1.png" width="817" height="456">
+
+
 # Project 4 Group 7: Diabetes Prediction
 
 ## Purpose/Goal of the project 
@@ -28,7 +31,7 @@
 
 . Binary classification on Diabetes dataset using multiple predictive modeling techniques
 
-### Modeling Techniques 
+### Modeling Techniques Utilized
 
 1. Logistic Regression
 2. Decision Tree
@@ -37,12 +40,33 @@
 5. Deep Learning
 
 
+<img src="ReadMe Pics/Pic 1.png" width="919" height="452">
+## Logistic Regression
+### Model Description
+<br>
 
-### Logistic Regression
-### Decision Tree
-### Random Forest
-### Support Vector Machine
-### Deep Learning Neural Network
+
+
+## Decision Tree
+### Model Description
+<br>
+## Random Forest
+### Model Description
+<br>
+
+
+
+## Support Vector Machine
+### Model Description
+<br>
+
+
+
+## Deep Learning Neural Network
+### Model Description
+<br>
+
+
 
 
 # Result - First dataset (Ordinal and Label Encoding using Pandas)
