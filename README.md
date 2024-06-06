@@ -52,7 +52,7 @@ The goal of the project is to create, optimize, and evaluate a machine-learning 
 
 ## Modeling Techniques Utilized
 
-Different models were used to estimate the likelihood of a patient developing diabetes. By analyzing the features (gender, age, hypertension, heart disease, smoking history, BMI, HbA1c levels, and blood glucose levels), the models aid in predicting whether an individual is at risk for diabetes.
+Different models were used to estimate the likelihood of an individual developing diabetes. By analyzing the features (gender, age, hypertension, heart disease, smoking history, BMI, HbA1c levels, and blood glucose levels), the models aid in predicting whether an individual is at risk for diabetes.
 
 1. Logistic Regression
 2. Decision Tree
