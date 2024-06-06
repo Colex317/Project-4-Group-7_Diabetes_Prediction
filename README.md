@@ -102,7 +102,7 @@ Deep learning neural networks, or artificial neural networks, attempts to mimic 
 ## Result
 Each model used in this project with the diabetes prediction datasets demonstrated meaningful predictive power greater than 75% classification accuracy:
 
-### Result - First dataset (Ordinal and Label Encoding using Pandas)
+### First dataset (Ordinal and Label Encoding using Pandas)
 
 | Models                  |   Accuracy   |
 |-------------------------|--------------|
@@ -113,7 +113,7 @@ Each model used in this project with the diabetes prediction datasets demonstrat
 | Deep Learning           |      0.93    |
 | Deep Learning (Tuned)   |      0.93    |
 
-### Result - Second dataset (OneHotEncoder and StandardScaler)
+### Second dataset (OneHotEncoder and StandardScaler)
 
 | Models                  |   Accuracy   |
 |-------------------------|--------------|
