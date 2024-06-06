@@ -73,7 +73,7 @@ Different models were used to estimate the likelihood of an individual developin
 
 ## Logistic Regression
 
-Logistic regression is a predictive analysis that estimates/models the probability of an event occurring based on a given dataset. This dataset contains both independent variables, or predictors, and their corresponding dependent variables, or responses. Logistic regression is a widely used statistical method for binary classification problems, making it an ideal choice for diabetes prediction. 
+Logistic regression estimates/models the probability of an event occurring based on a given dataset. This dataset contains independent variables, or predictors, and their corresponding dependent variables, or responses. Logistic regression is a widely used statistical method for binary classification problems, making it an ideal choice for diabetes prediction. 
 
 1. [Logistic Regression Model (using the label and ordinal encoding dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/diabetes_prediction_logistic_regression_label_encoding.ipynb)
 2. [Logistic Regression Model (using the One-Hot Encoding and StandardScaler dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/diabetes_prediction_logistic_regression_one_hot_encoding.ipynb)
