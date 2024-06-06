@@ -43,6 +43,7 @@
 
 ## Logistic Regression
 ### Model Description
+Logistic regression is a predictive analysis that estimates/models the probability of event occurring based on a given dataset. This dataset contains both independent variables, or predictors, and their corresponding dependent variables, or responses.(1)
 <br>
 
 
@@ -96,3 +97,6 @@ Centers for Disease Control and Prevention. (n.d.). Testing for Diabetes. Retrie
 Geekforgeeks. (n.d.). Connecting PostgreSQL with SQLAlchemy in Python. Retrieved from https://www.geeksforgeeks.org/connecting-postgresql-with-sqlalchemy-in-python/
 
 Yale Medicine. (n.d.). What do A1C test results mean? Retrieved from https://www.yalemedicine.org/conditions/hemoglobin-a1c-test-hba1c-test-blood-sugar
+
+  Samantha Lomuscio. (2022, September 22). Logistic Regression Four Ways with Python. https://library.virginia.edu/data/articles/logistic-regression-four-ways-with-python#:~:text=Logistic%20regression%20is%20a%20predictive,corresponding%20dependent%20variables%2C%20or%20responses
+
