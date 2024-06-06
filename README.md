@@ -18,7 +18,7 @@ The goal of the project is to create, optimize, and evaluate a machine-learning 
 
 ## Steps:
 
-### Obtain, clean, and transform the dataset:
+### Data Retrieval and Preprocessing:
 
 1. Obtain the dataset [Diabetes Prediction by Mohammed Mustafa](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset) from Kaggle and download it to the local machine
 
@@ -28,21 +28,25 @@ The goal of the project is to create, optimize, and evaluate a machine-learning 
 
 3. Retrieve the dataset using SQLAlchemy in Python
 
-4. Clean and transform the dataset:
+4. Clean, normalize, and standardize the data to ensure it is suitable for modeling:
    
    a. Using Label and Ordinal Encoding:   
-   - convert gender and smoking_history to numeric boolean values.
+   - convert gender and smoking_history to numeric format.
    - convert BMI, HbA1c, and blood glucose levels according to ranges.
 
    b. Using One-Hot Encoding and StandardScalar:
    - One-Hot Encoding to convert the categorical columns (gender and smoking_history)
    - Standardize the numerical columns using StandardScaler (age, BMI, HbA1c, and blood glucose level)
 
+### Model Initialization, Training, and Evaluation:
 
+5. Implement a Python script to initialize, train, and evaluate the machine learning model. For this project, we used multiple models.
 
-. Predictive modeling in Scikit-learn
+6. Select appropriate algorithms and techniques to achieve high predictive accuracy.
 
-. Binary classification on Diabetes dataset using multiple predictive modeling techniques
+### Model Optimization:
+
+7. Perform iterative optimization to enhance the model's performance.
 
 <br>
 
