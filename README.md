@@ -43,7 +43,7 @@
 
 ## Logistic Regression
 ### Model Description:
-Logistic regression is a predictive analysis that estimates/models the probability of event occurring based on a given dataset. This dataset contains both independent variables, or predictors, and their corresponding dependent variables, or responses.(1)
+Logistic regression is a predictive analysis that estimates/models the probability of event occurring based on a given dataset. This dataset contains both independent variables, or predictors, and their corresponding dependent variables, or responses. (1)
 <br>
 
 
@@ -56,6 +56,9 @@ Decision tree analysis is the process of drawing a decision tree, which is a gra
 
 ## Random Forest
 ### Model Description
+Random forest produces multiple decision trees, randomly choosing features to make decisions when splitting nodes to create each tree. It then takes these randomized observations from each tree and averages them out to build a final model. (3)
+
+
 <br>
 
 ## Support Vector Machine
@@ -104,3 +107,4 @@ Yale Medicine. (n.d.). What do A1C test results mean? Retrieved from https://www
 
 2 Heavy.AI. (2024). Decision Tree Analysis. https://www.heavy.ai/technical-glossary/decision-tree-analysis#:~:text=A%20decision%20tree%20is%20a,the%20best%20courses%20of%20action
 
+3 Niklas Donges. (2024, March 8). Random Forest: A Complete Guide for Machine Learning. https://builtin.com/data-science/random-forest-algorithm
