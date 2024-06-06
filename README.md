@@ -50,23 +50,18 @@
 ## Decision Tree
 ### Model Description
 <br>
+
 ## Random Forest
 ### Model Description
 <br>
-
-
 
 ## Support Vector Machine
 ### Model Description
 <br>
 
-
-
 ## Deep Learning Neural Network
 ### Model Description
 <br>
-
-
 
 
 # Result - First dataset (Ordinal and Label Encoding using Pandas)
