@@ -102,6 +102,7 @@ Random forest produces multiple decision trees, randomly choosing features to ma
 1. [Random Forest Model (using the label and ordinal encoding dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/diabetes_prediction_random_forest_label_encoding.ipynb)
 2. [Random Forest Model (using the One-Hot Encoding and StandardScaler dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/diabetes_prediction_random_forest_hot_encoding.ipynb)
 
+<img width="1083" alt="image" src="https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/assets/148498483/8c0397dc-6f2a-44dc-82fd-a840fc3bc285">
 <br>
 
 ## Support Vector Machine
