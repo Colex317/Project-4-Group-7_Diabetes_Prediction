@@ -1,22 +1,11 @@
-<img src="images/Header Pics/Cover Pic 1.png" width="817" height="456">
+<img src="images/Header Pics/Cover Pic 5.png" width="817" height="456">
 
 
 # Project 4 Group 7: Diabetes Prediction
 
-## Background
-Diabetes is a chronic condition characterized by the body's inability to produce sufficient insulin or effectively use the insulin it produces. Insulin is crucial for regulating blood glucose levels. Globally, the number of people living with diabetes surged from 108 million in 1980 to 422 million in 2014, with prevalence increasing more rapidly in low- and middle-income countries compared to high-income countries. Diabetes is a leading cause of severe health complications such as blindness, kidney failure, heart attacks, stroke, and lower limb amputations. Since there is no permanent cure for diabetes, early detection is vital. Machine learning (ML) algorithms can significantly aid in predicting diabetes, facilitating timely diagnosis and intervention. Therefore, our project focuses on developing and utilizing various ML models to predict the likelihood of diabetes.
-
 ## Purpose/Goal of the project 
 
-**Purpose**
-
-This project aims to develop a predictive model for diabetes diagnosis using a dataset containing patient health metrics. It aims to leverage machine learning techniques to accurately predict the presence of diabetes based on various health indicators, including gender, age, hypertension, heart disease, smoking history, BMI, HbA1c levels, and blood glucose levels.
-
-**Project Goal**
-
-The project's goal is to create, optimize, and evaluate a machine-learning model that can achieve at least 75% classification accuracy or an R-squared value of 0.80 or higher. The project will involve the following key steps.
-
-## Steps:
+### Obtain, clean, and transform the dataset:
 
 1. Obtain the dataset [Diabetes Prediction by Mohammed Mustafa](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset) from Kaggle and download it to the local machine
 
