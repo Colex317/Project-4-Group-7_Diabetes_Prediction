@@ -51,15 +51,17 @@ Logistic regression is a predictive analysis that estimates/models the probabili
 #### Model Description
 Decision tree analysis is the process of drawing a decision tree, which is a graphic representation of various alternative solutions that are available to solve a given problem, in order to determine the most effective courses of action. Decision trees are comprised of nodes and branches - nodes represent a test on an attribute and branches represent potential alternative outcomes. (2)
 
+<br>
 ## Random Forest
 #### Model Description
 Random forest produces multiple decision trees, randomly choosing features to make decisions when splitting nodes to create each tree. It then takes these randomized observations from each tree and averages them out to build a final model. (3)
 
+<br>
 ## Support Vector Machine
 #### Model Description
 A support vector machine (SVM) is a supervised machine learning algorithm that classifies data by finding an optimal line or hyperplane that maximizes the distance between each class in an N-dimensional space. (4)
-<br>
 
+<br>
 ## Deep Learning Neural Network
 #### Model Description
 <br>
