@@ -59,11 +59,11 @@ Decision tree analysis is the process of drawing a decision tree, which is a gra
 #### Model Description
 Random forest produces multiple decision trees, randomly choosing features to make decisions when splitting nodes to create each tree. It then takes these randomized observations from each tree and averages them out to build a final model. (3)
 
-
 <br>
 
 ## Support Vector Machine
 #### Model Description
+A support vector machine (SVM) is a supervised machine learning algorithm that classifies data by finding an optimal line or hyperplane that maximizes the distance between each class in an N-dimensional space. (4)
 <br>
 
 ## Deep Learning Neural Network
@@ -109,3 +109,5 @@ Yale Medicine. (n.d.). What do A1C test results mean? Retrieved from https://www
 2 Heavy.AI. (2024). Decision Tree Analysis. https://www.heavy.ai/technical-glossary/decision-tree-analysis#:~:text=A%20decision%20tree%20is%20a,the%20best%20courses%20of%20action
 
 3 Niklas Donges. (2024, March 8). Random Forest: A Complete Guide for Machine Learning. https://builtin.com/data-science/random-forest-algorithm
+
+4 Ibm.com. (2023, December 27). What are support vector machines (SVMs)? https://www.ibm.com/topics/support-vector-machine
