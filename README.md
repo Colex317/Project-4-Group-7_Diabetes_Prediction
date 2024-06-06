@@ -64,6 +64,10 @@ The goal of the project is to create, optimize, and evaluate a machine-learning 
 ## Logistic Regression
 #### Model Description:
 Logistic regression is a predictive analysis that estimates/models the probability of event occurring based on a given dataset. This dataset contains both independent variables, or predictors, and their corresponding dependent variables, or responses. (1)
+
+1. [Logistic Regression (using the label and ordinal encoding dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/diabetes_prediction_logistic_regression_label_encoding.ipynb)
+
+
 <br>
 <br>
 ## Decision Tree
