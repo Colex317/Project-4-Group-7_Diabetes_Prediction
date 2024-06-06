@@ -3,7 +3,18 @@
 
 # Project 4 Group 7: Diabetes Prediction
 
+## Background
+Diabetes is a chronic condition characterized by the body's inability to produce sufficient insulin or effectively use the insulin it produces. Insulin is crucial for regulating blood glucose levels. Globally, the number of people living with diabetes surged from 108 million in 1980 to 422 million in 2014, with prevalence increasing more rapidly in low- and middle-income countries compared to high-income countries. Diabetes is a leading cause of severe health complications such as blindness, kidney failure, heart attacks, stroke, and lower limb amputations (WHO, 2023). Since there is no permanent cure for diabetes, early detection is vital. Machine learning (ML) algorithms can significantly aid in predicting diabetes, facilitating timely diagnosis and intervention. Therefore, our project focuses on developing and utilizing various ML models to predict the likelihood of diabetes.
+
 ## Purpose/Goal of the project 
+
+**Purpose**
+This project aims to develop a predictive model for diabetes diagnosis using a dataset containing patient health metrics. It aims to leverage machine learning techniques to accurately predict the presence of diabetes based on various health indicators, including gender, age, hypertension, heart disease, smoking history, BMI, HbA1c levels, and blood glucose levels.
+
+**Project Goal**
+The goal of the project is to create, optimize, and evaluate a machine-learning model that can achieve at least 75% classification accuracy or an R-squared value of 0.80 or higher. The project will involve the following key steps:
+
+## Steps:
 
 ### Obtain, clean, and transform the dataset:
 
@@ -105,14 +116,17 @@ Centers for Disease Control and Prevention. (n.d.). Testing for Diabetes. Retrie
 
 Geekforgeeks. (n.d.). Connecting PostgreSQL with SQLAlchemy in Python. Retrieved from https://www.geeksforgeeks.org/connecting-postgresql-with-sqlalchemy-in-python/
 
+Heavy.AI. (2024). Decision Tree Analysis. Retrieved from https://www.heavy.ai/technical-glossary/decision-tree-analysis#:~:text=A%20decision%20tree%20is%20a,the%20best%20courses%20of%20action
+
+Ibm.com. (2023, December 27). What are support vector machines (SVMs)? Retrieved from https://www.ibm.com/topics/support-vector-machine
+
+Ibm.com. (n.d.). What is deep learning? Retrieved from https://www.ibm.com/topics/deep-learning#:~:text=Deep%20learning%20neural%20networks%2C%20or,describe%20objects%20within%20the%20data
+
+Niklas Donges. (2024, March 8). Random Forest: A Complete Guide for Machine Learning. Retrieved from https://builtin.com/data-science/random-forest-algorithm
+
+Samantha Lomuscio. (2022, September 22). Logistic Regression Four Ways with Python. Retrieved from https://library.virginia.edu/data/articles/logistic-regression-four-ways-with-python#:~:text=Logistic%20regression%20is%20a%20predictive,corresponding%20dependent%20variables%2C%20or%20responses
+
+World Health Organization. (2023). Diabetes. Retrieved from https://www.who.int/news-room/fact-sheets/detail/diabetes#:~:text=Diabetes%20is%20a%20chronic%20disease,hormone%20that%20regulates%20blood%20glucose.
+
 Yale Medicine. (n.d.). What do A1C test results mean? Retrieved from https://www.yalemedicine.org/conditions/hemoglobin-a1c-test-hba1c-test-blood-sugar
 
-  Samantha Lomuscio. (2022, September 22). Logistic Regression Four Ways with Python. https://library.virginia.edu/data/articles/logistic-regression-four-ways-with-python#:~:text=Logistic%20regression%20is%20a%20predictive,corresponding%20dependent%20variables%2C%20or%20responses
-
-2 Heavy.AI. (2024). Decision Tree Analysis. https://www.heavy.ai/technical-glossary/decision-tree-analysis#:~:text=A%20decision%20tree%20is%20a,the%20best%20courses%20of%20action
-
-3 Niklas Donges. (2024, March 8). Random Forest: A Complete Guide for Machine Learning. https://builtin.com/data-science/random-forest-algorithm
-
-4 Ibm.com. (2023, December 27). What are support vector machines (SVMs)? https://www.ibm.com/topics/support-vector-machine
-
-5 Ibm.com. (n.d.). What is deep learning? https://www.ibm.com/topics/deep-learning#:~:text=Deep%20learning%20neural%20networks%2C%20or,describe%20objects%20within%20the%20data
