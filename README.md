@@ -40,6 +40,7 @@
 5. Deep Learning
 
 
+<br>
 
 ## Logistic Regression
 #### Model Description:
