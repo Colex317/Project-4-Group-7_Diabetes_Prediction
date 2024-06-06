@@ -14,7 +14,7 @@ This project aims to develop a predictive model for diabetes diagnosis using a d
 
 **Project Goal**
 
-The goal of the project is to create, optimize, and evaluate a machine-learning model that can achieve at least 75% classification accuracy or an R-squared value of 0.80 or higher. The project will involve the following key steps:
+The goal of the project is to create, optimize, and evaluate a machine-learning model that can achieve at least 75% classification accuracy or an R-squared value of 0.80 or higher. The project will involve the following key steps below.
 
 ## Steps:
 
