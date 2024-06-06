@@ -1,4 +1,4 @@
-<img src="images/Header Pics/Cover Pic 5.png" width="817" height="456">
+<img src="images/Header Pics/Cover Pic 5.png" width="1019" height="479">
 
 
 # Project 4 Group 7: Diabetes Prediction
