@@ -122,7 +122,9 @@ Deep learning neural networks, or artificial neural networks, attempt to mimic t
 
 1. [Deep Learning Neural Network (using the label and ordinal encoding dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_prediction_svm_nn_label_encoding.ipynb) (Lower section of this file)
 2. [Deep Learning Neural Network (using the One-Hot EncodindScaler dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_prediction_svm_nn_one_hot_encoding.ipynb) (Lower section of this file)
-<img width="1002" alt="image" src="https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/assets/148498483/d7857fed-dc84-4c74-b22d-8edca50b9fc7">
+
+![image](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/assets/148498483/c37626fb-2c9c-46ec-9ce7-5a69844a5c16)
+
 
 <br>
 
