@@ -120,8 +120,8 @@ A support vector machine (SVM) is a supervised machine learning algorithm that c
 
 Deep learning neural networks, or artificial neural networks, attempt to mimic the human brain through a combination of data inputs, weights, and biases. These elements work together to accurately recognize, classify, and describe objects within the data. Deep learning neural networks are highly adaptable and can be fine-tuned for specific tasks, such as predicting the onset of diabetes. For this project, following best practice guidelines, the number of nodes in the first hidden layer was chosen to be two times the number of input features within the dataset.
 
-1. [Deep Learning Neural Network (using the label and ordinal encoding dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_prediction_svm_nn_label_encoding.ipynb) (Lower section of this file)
-2. [Deep Learning Neural Network (using the One-Hot EncodindScaler dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_prediction_svm_nn_one_hot_encoding.ipynb) (Lower section of this file)
+1. [Deep Learning Neural Network (using the label and ordinal encoding dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_prediction_svm_nn_label_encoding.ipynb) (Middle section of this file)
+2. [Deep Learning Neural Network (using the One-Hot EncodindScaler dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_prediction_svm_nn_one_hot_encoding.ipynb) (Middle section of this file)
 
 ![image](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/assets/148498483/c37626fb-2c9c-46ec-9ce7-5a69844a5c16)
 
@@ -161,6 +161,9 @@ We also utilized three other machine-learning models in this project to predict 
 2. Gaussian Naive Bayes 
 3. XGBoost 
 
+1. [Additional Models (using the label and ordinal encoding dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_prediction_svm_nn_label_encoding.ipynb) (Lower section of this file)
+2. [Additional Models Network (using the One-Hot EncodindScaler dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_prediction_svm_nn_one_hot_encoding.ipynb) (Lower section of this file)
+
 ### First dataset (Label and Ordinal Encoding using Pandas)
 
 | Models                  |   Accuracy   |
@@ -177,13 +180,14 @@ We also utilized three other machine-learning models in this project to predict 
 | Gaussian Naive Bayes    |      0.64    |
 | XGBoost                 |      0.97    |
 
+
 ## Conclusion
 In this project, we developed a predictive model for diabetes diagnosis using a dataset containing patient health metrics. We utilized various models to assess their effectiveness in predicting diabetes. The overall performance of the models was greater than 75% predictive accuracy, providing a comprehensive view of the model's effectiveness in predicting diabetes. With 11.6% of the US population affected by diabetes (diagnosed and undiagnosed), the models in this project offer potentially valuable insights in predicting diabetes and facilitating timely intervention and management.
 
 The use of StandardScaler allowed us to gain a 4-5% increase in the accuracy scores compared to the non-scaled data. StandardScaler impacted the importance of age, reducing it from the most important to the third most important feature in the Random Forest model, while increasing the importance of hba1c and blood glucose level predictors. In the scaled dataset, we see accuracies of 95-97%. The simpler models (logistic regression / decision tree) are more interpretable and easy to implement, whereas the deep learning model is more complex and required advanced tuning techniques to achieve a performance of 97%. The model recommendation for this project is either SVM or Deep Learning which both achieved 97% accuracy. One advantage between the two is that Support Vector Machines are more simple to implement than Deep Learning, so that would be the first choice.
 
 
-
+## [Link to the PowerPoint presentation](https://docs.google.com/presentation/d/16Kw_yZAl5BYWi3dwS2XfINaWJo_B7_lPB-taVGtd5q0/edit?usp=sharing)
 
 ## References
 
