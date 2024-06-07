@@ -135,7 +135,7 @@ Each model used in this project with the diabetes prediction datasets demonstrat
 | Decision Tree           |      0.92    |
 | Random Forest           |      0.92    |
 | Support Vector Machine  |      0.92    |
-| Deep Learning           |      0.93    |
+| Deep Learning           |      0.92    |
 | Deep Learning (Tuned)   |      0.93    |
 
 ### Second dataset (OneHotEncoder and StandardScaler)
