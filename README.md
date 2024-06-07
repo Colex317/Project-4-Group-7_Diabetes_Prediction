@@ -1,4 +1,5 @@
-<img src="images/Header Pics/Cover Pic 5.png" width="1019" height="479">
+![image](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/assets/148498483/ec423f32-9ff0-446e-b8a2-5d3175e2890d)
+
 
 
 # Project 4 Group 7: Diabetes Prediction
