@@ -2,7 +2,7 @@
 
 
 
-# Project 4 Group 7: Diabetes Prediction
+# Project 4 Group 7: Diabetes Prediction using Machine Learning
 
 ## Background
 Diabetes is a chronic condition characterized by the body's inability to produce sufficient insulin or effectively use the insulin it produces. Insulin is crucial for regulating blood glucose levels. Globally, the number of people living with diabetes surged from 108 million in 1980 to 422 million in 2014, with prevalence increasing more rapidly in low- and middle-income countries compared to high-income countries. Diabetes is a leading cause of severe health complications such as blindness, kidney failure, heart attacks, stroke, and lower limb amputations (WHO, 2023). Since there is no permanent cure for diabetes, early detection is vital. Machine learning (ML) algorithms can significantly aid in predicting diabetes, facilitating timely diagnosis and intervention. Therefore, our project focuses on developing and utilizing various ML models to predict the likelihood of diabetes.
@@ -121,14 +121,14 @@ A support vector machine (SVM) is a supervised machine learning algorithm that c
 Deep learning neural networks, or artificial neural networks, attempt to mimic the human brain through a combination of data inputs, weights, and biases. These elements work together to accurately recognize, classify, and describe objects within the data. Deep learning neural networks are highly adaptable and can be fine-tuned for specific tasks, such as predicting the onset of diabetes. For this project, following best practice guidelines, the number of nodes in the first hidden layer was chosen to be two times the number of input features within the dataset.
 
 1. [Deep Learning Neural Network (using the label and ordinal encoding dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_prediction_svm_nn_label_encoding.ipynb) (Lower section of this file)
-2. [Deep Learning Neural Network (using the One-Hot Encoding and StandardScaler dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_prediction_svm_nn_one_hot_encoding.ipynb) (Lower section of this file)
+2. [Deep Learning Neural Network (using the One-Hot EncodindScaler dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_prediction_svm_nn_one_hot_encoding.ipynb) (Lower section of this file)
 <img width="1002" alt="image" src="https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/assets/148498483/d7857fed-dc84-4c74-b22d-8edca50b9fc7">
 
 <br>
 
 
 ## Result
-Each model used in this project with the diabetes prediction datasets demonstrated meaningful predictive power greater than 75% classification accuracy:
+Each model used in this project with the diabetes prediction datasets demonstrated meaningful predictive power more significant than 75% classification accuracy:
 
 ### First dataset (Label and Ordinal Encoding using Pandas)
 
@@ -154,6 +154,12 @@ Each model used in this project with the diabetes prediction datasets demonstrat
 
 
 ## Conclusion
+In this project, we developed a predictive model for diabetes diagnosis using a dataset containing patient health metrics. We utilized various models to assess their effectiveness in predicting diabetes. The overall performance of the models was greater than 75% predictive accuracy, providing a comprehensive view of the model's effectiveness in predicting diabetes.
+
+Our results show ---we believe this is directly related to the use of StandardScaler allowed us to gain a 4-5% increase in the accuracy scores. StandardScaler impacted the importance of age the features as evident in the models that used the dataset that was standardized using StandardScalar
+
+With 11.6% of the US population affected by diabetes (diagnosed and undiagnosed), the models in this project offer potentially valuable insights in predicting diabetes and facilitating timely intervention and management.
+
 
 ## References
 
