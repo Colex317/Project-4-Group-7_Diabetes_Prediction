@@ -119,6 +119,8 @@ A support vector machine (SVM) is a supervised machine learning algorithm that c
 
 Deep learning neural networks, or artificial neural networks, attempt to mimic the human brain through a combination of data inputs, weights, and biases. These elements work together to accurately recognize, classify, and describe objects within the data. Deep learning neural networks are highly adaptable and can be fine-tuned for specific tasks, such as predicting the onset of diabetes. For this project, following best practice guidelines, the number of nodes in the first hidden layer was chosen to be two times the number of input features within the dataset.
 
+1. Deep Learning Neural Network (using the label and ordinal encoding dataset) (Lower section of this file)
+2. Deep Learning Neural Network (using the One-Hot Encoding and StandardScaler dataset) (Lower section of this file)
 <img width="1002" alt="image" src="https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/assets/148498483/d7857fed-dc84-4c74-b22d-8edca50b9fc7">
 
 <br>
