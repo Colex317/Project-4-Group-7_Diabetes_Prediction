@@ -152,6 +152,28 @@ Each model used in this project with the diabetes prediction datasets demonstrat
 | Deep Learning           |      0.97    |
 | Deep Learning (Tuned)   |      0.97    |
 
+## Additional Models
+We also utilized three other machine-learning models in this project to predict diabetes using two different datasets processed with different encoding and scaling techniques. Both datasets and all models surpassed the performance benchmark, with the second dataset showing slightly higher accuracy across all models. This demonstrates that the choice of data preprocessing techniques, such as OneHotEncoding and StandardScaler, can have a substantial impact on model performance.
+
+1. Yggdrasil Decision Tree  
+2. Gaussian Naive Bayes 
+3. XGBoost 
+
+### First dataset (Label and Ordinal Encoding using Pandas)
+
+| Models                  |   Accuracy   |
+|-------------------------|--------------|
+| Yggdrasil Decision Tree |      0.93    |
+| Gaussian Naive Bayes    |      0.67    |
+| XGBoost                 |      0.92    |
+
+### Second dataset (OneHotEncoder and StandardScaler)
+
+| Models                  |   Accuracy   |
+|-------------------------|--------------|
+| Yggdrasil Decision Tree |      0.97    |
+| Gaussian Naive Bayes    |      0.64    |
+| XGBoost                 |      0.97    |
 
 ## Conclusion
 In this project, we developed a predictive model for diabetes diagnosis using a dataset containing patient health metrics. We utilized various models to assess their effectiveness in predicting diabetes. The overall performance of the models was greater than 75% predictive accuracy, providing a comprehensive view of the model's effectiveness in predicting diabetes. With 11.6% of the US population affected by diabetes (diagnosed and undiagnosed), the models in this project offer potentially valuable insights in predicting diabetes and facilitating timely intervention and management.
