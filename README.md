@@ -108,8 +108,10 @@ Random forest produces multiple decision trees, randomly choosing features to ma
 ## Support Vector Machine
 A support vector machine (SVM) is a supervised machine learning algorithm that classifies data by finding an optimal line or hyperplane that maximizes the distance between each class in an N-dimensional space. SVM is a good choice when predicting diabetes as it can handle high-dimensional data efficiently and support different kernel functions, enabling flexibility.
 
-??????1. [Support Vector Machine (using the label and ordinal encoding dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_prediction_svm_nn_label_encoding.ipynb)
-?????2. [Support Vector Machine (using the One-Hot Encoding and StandardScaler dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_prediction_svm_nn_one_hot_encoding.ipynb)
+1. [Support Vector Machine (using the label and ordinal encoding dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_prediction_svm_nn_label_encoding.ipynb)
+2. [Support Vector Machine (using the One-Hot Encoding and StandardScaler dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_prediction_svm_nn_one_hot_encoding.ipynb)
+
+<img width="1086" alt="image" src="https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/assets/148498483/effb1fab-15a3-47c6-8445-33563b792b9d">
 
 <br>
 
