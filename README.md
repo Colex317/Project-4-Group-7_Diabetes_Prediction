@@ -154,11 +154,11 @@ Each model used in this project with the diabetes prediction datasets demonstrat
 
 
 ## Conclusion
-In this project, we developed a predictive model for diabetes diagnosis using a dataset containing patient health metrics. We utilized various models to assess their effectiveness in predicting diabetes. The overall performance of the models was greater than 75% predictive accuracy, providing a comprehensive view of the model's effectiveness in predicting diabetes.
+In this project, we developed a predictive model for diabetes diagnosis using a dataset containing patient health metrics. We utilized various models to assess their effectiveness in predicting diabetes. The overall performance of the models was greater than 75% predictive accuracy, providing a comprehensive view of the model's effectiveness in predicting diabetes. With 11.6% of the US population affected by diabetes (diagnosed and undiagnosed), the models in this project offer potentially valuable insights in predicting diabetes and facilitating timely intervention and management.
 
-Our results show ---we believe this is directly related to the use of StandardScaler allowed us to gain a 4-5% increase in the accuracy scores. StandardScaler impacted the importance of age the features as evident in the models that used the dataset that was standardized using StandardScalar
+The use of StandardScaler allowed us to gain a 4-5% increase in the accuracy scores compared to the non-scaled data. StandardScaler impacted the importance of age, reducing it from the most important to the third most important feature in the Random Forest model, while increasing the importance of hba1c and blood glucose level predictors. In the scaled dataset, we see accuracies of 95-97%. The simpler models (logistic regression / decision tree) are more interpretable and easy to implement, whereas the deep learning model is more complex and required advanced tuning techniques to achieve a performance of 97%. The ultimate model recommendation for this use case is the highest performing one at 97% - both SVM and deep learning were able to achieve this level of performance. One advantage between the two is that Support Vector Machines are more simple to implement than Deep Learning. 
 
-With 11.6% of the US population affected by diabetes (diagnosed and undiagnosed), the models in this project offer potentially valuable insights in predicting diabetes and facilitating timely intervention and management.
+
 
 
 ## References
