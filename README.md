@@ -161,9 +161,6 @@ We also utilized three other machine-learning models in this project to predict 
 2. Gaussian Naive Bayes 
 3. XGBoost 
 
-1. [Additional Models (using the label and ordinal encoding dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_prediction_svm_nn_label_encoding.ipynb) (Lower section of this file)
-2. [Additional Models Network (using the One-Hot EncodindScaler dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_prediction_svm_nn_one_hot_encoding.ipynb) (Lower section of this file)
-
 ### First dataset (Label and Ordinal Encoding using Pandas)
 
 | Models                  |   Accuracy   |
@@ -180,6 +177,8 @@ We also utilized three other machine-learning models in this project to predict 
 | Gaussian Naive Bayes    |      0.64    |
 | XGBoost                 |      0.97    |
 
+   1. [Additional Models (using the label and ordinal encoding dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_prediction_svm_nn_label_encoding.ipynb) (Lower section of this file)
+   2. [Additional Models Network (using the One-Hot EncodindScaler dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_prediction_svm_nn_one_hot_encoding.ipynb) (Lower section of this file)
 
 ## Conclusion
 In this project, we developed a predictive model for diabetes diagnosis using a dataset containing patient health metrics. We utilized various models to assess their effectiveness in predicting diabetes. The overall performance of the models was greater than 75% predictive accuracy, providing a comprehensive view of the model's effectiveness in predicting diabetes. With 11.6% of the US population affected by diabetes (diagnosed and undiagnosed), the models in this project offer potentially valuable insights in predicting diabetes and facilitating timely intervention and management.
