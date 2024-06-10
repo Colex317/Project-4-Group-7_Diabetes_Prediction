@@ -10,6 +10,8 @@ Marsha Cole, Kim Reiser, Michael Leonard, and Gregory Schreiter
 ## Background
 Diabetes is a chronic condition characterized by the body's inability to produce sufficient insulin or effectively use the insulin it produces. Insulin is crucial for regulating blood glucose levels. Globally, the number of people living with diabetes surged from 108 million in 1980 to 422 million in 2014, with prevalence increasing more rapidly in low- and middle-income countries compared to high-income countries. Diabetes is a leading cause of severe health complications such as blindness, kidney failure, heart attacks, stroke, and lower limb amputations (WHO, 2023). Since there is no permanent cure for diabetes, early detection is vital. Machine learning (ML) algorithms can significantly aid in predicting diabetes, facilitating timely diagnosis and intervention. Therefore, our project focuses on developing and utilizing various ML models to predict the likelihood of diabetes.
 
+<br>
+
 ## Purpose/Goal of the project 
 
 **Purpose**
@@ -20,19 +22,21 @@ This project aims to develop a predictive model for diabetes diagnosis using a d
 
 The goal of the project is to create, optimize, and evaluate a machine-learning model that can achieve at least 75% classification accuracy or an R-squared value of 0.80 or higher. The project will involve the following key steps below.
 
+<br>
+
 ## Dataset Used 
 
-The Diabetes Prediction dataset by Mohammed Mustafa was retrieved from Kaggle: (https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset). The dataset has 100, 000 rows across 9 columns:
+The Diabetes Prediction dataset by Mohammed Mustafa was retrieved from Kaggle: (https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset). The dataset has 100,000 rows across 9 columns:
 
-- Gender - refers to the biological sex of the individual, which can have an impact on their susceptibility to diabetes.
+- Gender - refers to the biological sex of the individual, which can impact their susceptibility to diabetes.
   
-- Age - is an important factor as diabetes is more commonly diagnosed in older adults. Age in this dataset ranges from 0-80.
+- Age - is an important factor, as diabetes is more commonly diagnosed in older adults. The age range in this dataset is 0 to 80.
   
 - Hypertension - is a medical condition in which the blood pressure in the arteries is persistently elevated. It has values of 0 or 1, where 0 indicates no hypertension and 1 means they have hypertension.
   
 - Heart disease is a medical condition associated with an increased risk of developing diabetes. It has values of 0 or 1, where 0 indicates no heart disease and 1 means they have heart disease.
   
-- Smoking history - is considered a risk factor for diabetes and can exacerbate the complications associated with diabetes. The dataset has 5 categories i.e not current, former, No Info, current, never and ever.
+- Smoking history -  is considered a risk factor for diabetes and can exacerbate the complications associated with it. The dataset has five categories: not current, former, No Info, current, never, and ever.
   
 - BMI (Body Mass Index) - is a measure of body fat based on weight and height. Higher BMI values are linked to a higher risk of diabetes. The range of BMI in the dataset is from 10.16 to 71.55.
   
@@ -41,6 +45,8 @@ The Diabetes Prediction dataset by Mohammed Mustafa was retrieved from Kaggle: (
 - Blood glucose level - is a measure of a person's average blood sugar level over the past 2-3 months. Higher levels indicate a greater risk of developing diabetes.
 
 - Diabetes - (the target) is a chronic medical disease that occurs either when the pancreas does not produce enough insulin or when the body cannot effectively use the insulin it produces. It has values of 0 or 1, where 0 indicates no diabetes and 1 means they have diabetes.
+
+<br>
 
 ## Steps:
 
