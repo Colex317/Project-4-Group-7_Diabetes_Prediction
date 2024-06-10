@@ -52,7 +52,7 @@ The Diabetes Prediction dataset by Mohammed Mustafa was retrieved from Kaggle: (
 
 ### Data Retrieval and Preprocessing:
 
-1. Obtain the dataset [Diabetes Prediction by Mohammed Mustafa](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset) from Kaggle and download it to the local machine
+1. Obtain the dataset [Diabetes Prediction by Mohammed Mustafa](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset) from Kaggle and download it to the local machine.
 
 <img width="1003" alt="image" src="https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/assets/148498483/ca690187-da68-4e67-b747-387a0cb36d75">
 
@@ -66,7 +66,7 @@ The Diabetes Prediction dataset by Mohammed Mustafa was retrieved from Kaggle: (
 <br>
 
 
-3. Retrieve the dataset using SQLAlchemy in Python
+3. Retrieve the dataset using SQLAlchemy in Python.
 
 4. Clean, normalize, and standardize the data to ensure it is suitable for modeling:
    
@@ -75,8 +75,8 @@ The Diabetes Prediction dataset by Mohammed Mustafa was retrieved from Kaggle: (
    - convert BMI, HbA1c, and blood glucose levels according to ranges.
 
    b. Using One-Hot Encoding and StandardScalar:
-   - One-Hot Encoding to convert the categorical columns (gender and smoking_history)
-   - Standardize the numerical columns using StandardScaler (age, BMI, HbA1c, and blood glucose level)
+   - One-Hot Encoding to convert the categorical columns (gender and smoking_history).
+   - Standardize the numerical columns using StandardScaler (age, BMI, HbA1c, and blood glucose level).
 
 ### Model Initialization, Training, and Evaluation:
 
