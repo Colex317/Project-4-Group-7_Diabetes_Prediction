@@ -57,7 +57,7 @@ The Diabetes Prediction dataset by Mohammed Mustafa was retrieved from Kaggle: (
 <img width="1003" alt="image" src="https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/assets/148498483/ca690187-da68-4e67-b747-387a0cb36d75">
 
 <br>
-
+----------------------------------------------------------------------------------------------------------------------------------------------------
 
 2. Create a database and table schema ([diabetes_prediction_schema](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/diabetes_prediction_schema.sql)) in PostgreSQL. Then, verify the data was imported correctly.
 
