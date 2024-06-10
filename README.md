@@ -79,7 +79,7 @@ The Diabetes Prediction dataset by Mohammed Mustafa was retrieved from Kaggle: (
 
 
    b. [Using One-Hot Encoding and StandardScalar](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Data_Preparation/diabetes_prediction_one_hot_encoding.ipynb):
-     - One-Hot Encoding - was used to create binary features for each category, converting the categorical columns (gender and smoking_history).
+     - One-Hot Encoding - was used to create binary features for each category, converting the categorical columns (gender and smoking history).
      - StandardScaler - was used to standardize the numerical columns (age, BMI, HbA1c, and blood glucose level).
 
 ### Model Initialization, Training, and Evaluation:
