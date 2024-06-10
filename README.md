@@ -34,7 +34,7 @@ The Diabetes Prediction dataset by Mohammed Mustafa was retrieved from Kaggle: (
   
 - Hypertension - is a medical condition in which the blood pressure in the arteries is persistently elevated. It has values of 0 or 1, where 0 indicates no hypertension and 1 means they have hypertension.
   
-- Heart disease is a medical condition associated with an increased risk of developing diabetes. It has values of 0 or 1, where 0 indicates no heart disease and 1 means they have heart disease.
+- Heart disease - is a medical condition associated with an increased risk of developing diabetes. It has values of 0 or 1, where 0 indicates no heart disease and 1 means they have heart disease.
   
 - Smoking history -  is considered a risk factor for diabetes and can exacerbate the complications associated with it. The dataset has five categories: not current, former, No Info, current, never, and ever.
   
