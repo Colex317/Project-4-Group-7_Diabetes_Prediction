@@ -24,7 +24,7 @@ The goal of the project is to create, optimize, and evaluate a machine-learning 
 
 <br>
 
-## Dataset Used 
+## Diabetes Prediction Dataset
 
 The Diabetes Prediction dataset by Mohammed Mustafa was retrieved from Kaggle: (https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset). The dataset has 100,000 rows across 9 columns:
 
