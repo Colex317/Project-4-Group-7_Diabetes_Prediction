@@ -74,12 +74,13 @@ The Diabetes Prediction dataset by Mohammed Mustafa was retrieved from Kaggle: (
 4. Clean, normalize, and standardize the data to ensure it is suitable for modeling:
    
    a. [Using Label and Ordinal Encoding](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Data_Preparation/diabetes_prediction_label_encoding.ipynb):   
-   - convert gender and smoking_history to numeric format.
-   - convert BMI, HbA1c, and blood glucose levels according to ranges.
+  - Label Encoding - was used to convert the categorical labels/words (gender and smoking history) into numeric form.
+  - Ordinal Encoding - convert BMI, HbA1c, and blood glucose levels, preserving the natural order of the categories.
+
 
    b. [Using One-Hot Encoding and StandardScalar](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Data_Preparation/diabetes_prediction_one_hot_encoding.ipynb):
-   - One-Hot Encoding to convert the categorical columns (gender and smoking_history).
-   - Standardize the numerical columns using StandardScaler (age, BMI, HbA1c, and blood glucose level).
+   - One-Hot Encoding - was used to create binary features for each category, converting the categorical columns (gender and smoking_history).
+   - StandardScaler - was used to standardize the numerical columns (age, BMI, HbA1c, and blood glucose level).
 
 ### Model Initialization, Training, and Evaluation:
 
