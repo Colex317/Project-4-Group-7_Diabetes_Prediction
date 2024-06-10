@@ -22,13 +22,13 @@ The goal of the project is to create, optimize, and evaluate a machine-learning 
 
 ## Dataset Used 
 
-The Diabetes Prediction dataset by Mohammed Mustafa was retrieved from Kaggle:(https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset). The dataset has 100, 00 rows acrross 
+The Diabetes Prediction dataset by Mohammed Mustafa was retrieved from Kaggle:(https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset). The dataset has 100, 000 rows across 9 columns:
 
 - Gender - refers to the biological sex of the individual, which can have an impact on their susceptibility to diabetes.
   
-- Age - is an important factor as diabetes is more commonly diagnosed in older adults. Age ranges from 0-80 in this dataset.
+- Age - is an important factor as diabetes is more commonly diagnosed in older adults. Age in this dataset ranges from 0-80.
   
-- Hypertension - is a medical condition in which the blood pressure in the arteries is persistently elevated. It has values of 0 or 1 where 0 indicates no hypertension and 1 means they have hypertension.
+- Hypertension - is a medical condition in which the blood pressure in the arteries is persistently elevated. It has values of 0 or 1, where 0 indicates no hypertension and 1 means they have hypertension.
   
 - Heart disease is a medical condition associated with an increased risk of developing diabetes. It has values of 0 or 1, where 0 indicates no heart disease and 1 means they have heart disease.
   
@@ -39,6 +39,8 @@ The Diabetes Prediction dataset by Mohammed Mustafa was retrieved from Kaggle:(h
 - HbA1c (Hemoglobin A1c) level - is a measure of a person's average blood sugar level over the past 2-3 months. Higher levels indicate a greater risk of developing diabetes.
   
 - Blood glucose level - is a measure of a person's average blood sugar level over the past 2-3 months. Higher levels indicate a greater risk of developing diabetes.
+
+- Diabetes - (the target) is a chronic medical disease that occurs either when the pancreas does not produce enough insulin or when the body cannot effectively use the insulin it produces. It has values of 0 or 1, where 0 indicates no diabetes and 1 means they have diabetes.
 
 ## Steps:
 
