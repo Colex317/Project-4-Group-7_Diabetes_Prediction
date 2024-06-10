@@ -242,7 +242,7 @@ Ibm.com. (2023, December 27). What are support vector machines (SVMs)? Retrieved
 
 Ibm.com. (n.d.). What is deep learning? Retrieved from https://www.ibm.com/topics/deep-learning#:~:text=Deep%20learning%20neural%20networks%2C%20or,describe%20objects%20within%20the%20data
 
-Mohammed Mustafa (n.d.) Diabetes Prediction. Retrieved from https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset
+Mohammed Mustafa (n.d.). Diabetes Prediction. Retrieved from https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset
 
 Niklas Donges. (2024, March 8). Random Forest: A Complete Guide for Machine Learning. Retrieved from https://builtin.com/data-science/random-forest-algorithm
 
