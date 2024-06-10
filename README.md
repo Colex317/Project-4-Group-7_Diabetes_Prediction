@@ -242,6 +242,8 @@ Ibm.com. (2023, December 27). What are support vector machines (SVMs)? Retrieved
 
 Ibm.com. (n.d.). What is deep learning? Retrieved from https://www.ibm.com/topics/deep-learning#:~:text=Deep%20learning%20neural%20networks%2C%20or,describe%20objects%20within%20the%20data
 
+Mohammed Mustafa (n.d.) Diabetes Prediction. Retrieved from https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset
+
 Niklas Donges. (2024, March 8). Random Forest: A Complete Guide for Machine Learning. Retrieved from https://builtin.com/data-science/random-forest-algorithm
 
 Samantha Lomuscio. (2022, September 22). Logistic Regression Four Ways with Python. Retrieved from https://library.virginia.edu/data/articles/logistic-regression-four-ways-with-python#:~:text=Logistic%20regression%20is%20a%20predictive,corresponding%20dependent%20variables%2C%20or%20responses
