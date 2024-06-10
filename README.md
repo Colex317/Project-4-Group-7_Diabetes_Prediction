@@ -8,7 +8,7 @@
 Marsha Cole, Kim Reiser, Michael Leonard, and Gregory Schreiter
 
 ## Background
-Diabetes is a chronic condition characterized by the body's inability to produce sufficient insulin or effectively use the insulin it produces. Insulin is crucial for regulating blood glucose levels. Globally, the number of people living with diabetes surged from 108 million in 1980 to 422 million in 2014, with prevalence increasing more rapidly in low- and middle-income countries compared to high-income countries. Diabetes is a leading cause of severe health complications such as blindness, kidney failure, heart attacks, stroke, and lower limb amputations (WHO, 2023). Since there is no permanent cure for diabetes, early detection is vital. Machine learning (ML) algorithms can significantly aid in predicting diabetes, facilitating timely diagnosis and intervention. Therefore, our project focuses on developing and utilizing various ML models to predict the likelihood of diabetes.
+Diabetes is a chronic condition characterized by the body's inability to produce sufficient insulin or effectively use the insulin it produces. Insulin is crucial for regulating blood glucose levels. Globally, the number of people living with diabetes surged from 108 million in 1980 to 422 million in 2014, with prevalence increasing more rapidly in low- and middle-income countries compared to high-income countries. Diabetes is a leading cause of severe health complications such as blindness, kidney failure, heart attacks, stroke, and lower limb amputations (WHO, 2023). Since there is no permanent cure for diabetes, early detection is vital. Machine learning (ML) algorithms can significantly aid in predicting diabetes, facilitating timely diagnosis and intervention. Therefore, our project focuses on developing and utilizing various ML models to predict the likelihood of type 2 diabetes.
 
 <br>
 
@@ -42,7 +42,7 @@ The Diabetes Prediction dataset by Mohammed Mustafa was retrieved from Kaggle: (
   
 - HbA1c (Hemoglobin A1c or Glycated hemoglobin) level - is a measure of a person's average blood sugar level over the past 2-3 months. Higher levels indicate a greater risk of developing diabetes.
   
-- Blood glucose level - is a measure of a person's average blood sugar level over the past 2-3 months. Higher levels indicate a greater risk of developing diabetes.
+- Blood glucose level - refers to the amount of glucose in the bloodstream at a given time. High blood glucose levels are a key risk factor for developing diabetes.
 
 - Diabetes - (the target) is a chronic medical disease that occurs either when the pancreas does not produce enough insulin or when the body cannot effectively use the insulin it produces. It has values of 0 or 1, where 0 indicates no diabetes and 1 means they have diabetes.
 
@@ -69,15 +69,15 @@ The Diabetes Prediction dataset by Mohammed Mustafa was retrieved from Kaggle: (
 <br>
 
 
-3. Retrieve the dataset using SQLAlchemy in Python.
+3. Retrieve the [dataset](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Resources/diabetes_prediction_dataset.csv) using SQLAlchemy in Python.
 
 4. Clean, normalize, and standardize the data to ensure it is suitable for modeling:
    
-   a. Using Label and Ordinal Encoding:   
+   a. [Using Label and Ordinal Encoding](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Data_Preparation/diabetes_prediction_label_encoding.ipynb):   
    - convert gender and smoking_history to numeric format.
    - convert BMI, HbA1c, and blood glucose levels according to ranges.
 
-   b. Using One-Hot Encoding and StandardScalar:
+   b. [Using One-Hot Encoding and StandardScalar](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Data_Preparation/diabetes_prediction_one_hot_encoding.ipynb):
    - One-Hot Encoding to convert the categorical columns (gender and smoking_history).
    - Standardize the numerical columns using StandardScaler (age, BMI, HbA1c, and blood glucose level).
 
@@ -214,10 +214,15 @@ We also utilized three other machine-learning models in this project to predict 
    1. [Additional Models (using the label and ordinal encoding dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_prediction_svm_nn_label_encoding.ipynb) (Lower section of this file)
    2. [Additional Models Network (using the One-Hot EncodindScaler dataset)](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Diabetes_prediction_svm_nn_one_hot_encoding.ipynb) (Lower section of this file)
 
-## Conclusion
-In this project, we developed predictive models for diabetes diagnosis using a dataset containing patient health metrics. We utilized various models to assess their effectiveness in predicting diabetes using two different datasets processed with different encoding and scaling techniques. The overall performance of the models was greater than 75% predictive accuracy, providing a comprehensive view of the model's effectiveness in predicting diabetes. With 11.6% of the US population affected by diabetes (diagnosed and undiagnosed), the models in this project offer potentially valuable insights in predicting diabetes and facilitating timely intervention and management.
+## Findings
+This project successfully demonstrated the application of various machine learning models in predicting diabetes, achieving high accuracy and providing valuable insights into the factors associated with the disease. The use of StandardScaler allowed us to gain a 4-5% increase in the accuracy scores compared to the non-scaled data. This highlights the importance of data preprocessing in improving model performance. StandardScaler impacted the importance of age, reducing it from the most important to the third most important feature in the Random Forest model while increasing the importance of HbA1c and blood glucose level predictors. In the scaled dataset, we see accuracies of 95-97%. 
 
-The use of StandardScaler allowed us to gain a 4-5% increase in the accuracy scores compared to the non-scaled data. StandardScaler impacted the importance of age, reducing it from the most important to the third most important feature in the Random Forest model, while increasing the importance of hba1c and blood glucose level predictors. In the scaled dataset, we see accuracies of 95-97%. The simpler models (logistic regression / decision tree) are more interpretable and easy to implement, whereas the deep learning model is more complex and requires advanced tuning techniques to achieve a performance of 97%. The model recommendation for this project is either SVM or Deep Learning which both achieved 97% accuracy. One advantage between the two is that Support Vector Machines are more simple to implement than Deep Learning, so that would be the first choice.
+The simpler models (logistic regression / decision tree) are more interpretable and easy to implement, whereas the deep learning model is more complex and requires advanced tuning techniques to achieve a performance of 97%. The model recommendation for this project is either SVM or Deep Learning which both achieved 97% accuracy. One advantage between the two is that Support Vector Machines are more simple to implement than Deep Learning, so that would be the first choice.
+
+## Conclusion
+We developed predictive models for diabetes diagnosis using a dataset containing patient health metrics. We utilized various models to assess their effectiveness in predicting diabetes using two different datasets processed with different encoding and scaling techniques. The overall performance of the models was greater than 75% predictive accuracy, providing a comprehensive view of the model's effectiveness in predicting diabetes. With 11.6% of the US population affected by diabetes (diagnosed and undiagnosed), the models in this project offer potentially valuable insights in predicting diabetes and facilitating timely intervention and management, contributing to better health outcomes.
+
+Future work could explore additional preprocessing techniques, larger and more diverse datasets, and advanced ensemble methods to further enhance predictive accuracy and model robustness. External validation and testing on different populations would also be beneficial to confirm the generalizability of the models.
 
 
 ## [Link to the PowerPoint presentation](https://docs.google.com/presentation/d/16Kw_yZAl5BYWi3dwS2XfINaWJo_B7_lPB-taVGtd5q0/edit?usp=sharing)
