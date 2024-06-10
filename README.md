@@ -73,7 +73,7 @@ The Diabetes Prediction dataset by Mohammed Mustafa was retrieved from Kaggle: (
 
 4. Clean, normalize, and standardize the data to ensure it is suitable for modeling:
    
-   a. [Using Label and Ordinal Encoding](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Resources/diabetes_prediction_cleaned_label_encoding.csv):   
+   a. [Using Label and Ordinal Encoding](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Data_Preparation/diabetes_prediction_label_encoding.ipynb):   
    - convert gender and smoking_history to numeric format.
    - convert BMI, HbA1c, and blood glucose levels according to ranges.
 
