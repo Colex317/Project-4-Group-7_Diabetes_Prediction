@@ -20,6 +20,26 @@ This project aims to develop a predictive model for diabetes diagnosis using a d
 
 The goal of the project is to create, optimize, and evaluate a machine-learning model that can achieve at least 75% classification accuracy or an R-squared value of 0.80 or higher. The project will involve the following key steps below.
 
+## Dataset Used 
+
+The Diabetes Prediction dataset by Mohammed Mustafa was retrieved from Kaggle:(https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset). The dataset has 100, 00 rows acrross 
+
+- Gender - refers to the biological sex of the individual, which can have an impact on their susceptibility to diabetes.
+  
+- Age - is an important factor as diabetes is more commonly diagnosed in older adults. Age ranges from 0-80 in this dataset.
+  
+- Hypertension - is a medical condition in which the blood pressure in the arteries is persistently elevated. It has values of 0 or 1 where 0 indicates no hypertension and 1 means they have hypertension.
+  
+- Heart disease is a medical condition associated with an increased risk of developing diabetes. It has values of 0 or 1, where 0 indicates no heart disease and 1 means they have heart disease.
+  
+- Smoking history - is considered a risk factor for diabetes and can exacerbate the complications associated with diabetes. The dataset has 5 categories i.e not current, former, No Info, current, never and ever.
+  
+- BMI (Body Mass Index) - is a measure of body fat based on weight and height. Higher BMI values are linked to a higher risk of diabetes. The range of BMI in the dataset is from 10.16 to 71.55.
+  
+- HbA1c (Hemoglobin A1c) level - is a measure of a person's average blood sugar level over the past 2-3 months. Higher levels indicate a greater risk of developing diabetes.
+  
+- Blood glucose level - is a measure of a person's average blood sugar level over the past 2-3 months. Higher levels indicate a greater risk of developing diabetes.
+
 ## Steps:
 
 ### Data Retrieval and Preprocessing:
