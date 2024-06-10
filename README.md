@@ -222,7 +222,7 @@ The simpler models (logistic regression / decision tree) are more interpretable 
 ## Conclusion
 We developed predictive models for diabetes diagnosis using a dataset containing patient health metrics. We utilized various models to assess their effectiveness in predicting diabetes using two different datasets processed with different encoding and scaling techniques. The overall performance of the models was greater than 75% predictive accuracy, providing a comprehensive view of the model's effectiveness in predicting diabetes. With 11.6% of the US population affected by diabetes (diagnosed and undiagnosed), the models in this project offer potentially valuable insights in predicting diabetes and facilitating timely intervention and management, contributing to better health outcomes.
 
-Future research could explore additional preprocessing techniques, larger and more diverse datasets, and advanced ensemble methods to further enhance predictive accuracy and model robustness. External validation and testing on different populations would also be beneficial to confirm the generalizability of the models.
+Future work could explore additional preprocessing techniques, larger and more diverse datasets, and advanced ensemble methods to further enhance predictive accuracy and model robustness. External validation and testing on different populations would also be beneficial to confirm the generalizability of the models.
 
 
 ## [Link to the PowerPoint presentation](https://docs.google.com/presentation/d/16Kw_yZAl5BYWi3dwS2XfINaWJo_B7_lPB-taVGtd5q0/edit?usp=sharing)
