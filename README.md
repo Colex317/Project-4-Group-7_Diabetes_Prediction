@@ -69,15 +69,15 @@ The Diabetes Prediction dataset by Mohammed Mustafa was retrieved from Kaggle: (
 <br>
 
 
-3. Retrieve the dataset using SQLAlchemy in Python.
+3. Retrieve the [dataset](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Resources/diabetes_prediction_dataset.csv) using SQLAlchemy in Python.
 
 4. Clean, normalize, and standardize the data to ensure it is suitable for modeling:
    
-   a. Using Label and Ordinal Encoding:   
+   a. [Using Label and Ordinal Encoding](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Resources/diabetes_prediction_cleaned_label_encoding.csv):   
    - convert gender and smoking_history to numeric format.
    - convert BMI, HbA1c, and blood glucose levels according to ranges.
 
-   b. Using One-Hot Encoding and StandardScalar:
+   b. [Using One-Hot Encoding and StandardScalar](https://github.com/Colex317/Project-4-Group-7_Diabetes_Prediction/blob/main/Data_Preparation/diabetes_prediction_one_hot_encoding.ipynb):
    - One-Hot Encoding to convert the categorical columns (gender and smoking_history).
    - Standardize the numerical columns using StandardScaler (age, BMI, HbA1c, and blood glucose level).
 
