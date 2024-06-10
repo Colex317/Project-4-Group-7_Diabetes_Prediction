@@ -22,7 +22,7 @@ The goal of the project is to create, optimize, and evaluate a machine-learning 
 
 ## Dataset Used 
 
-The Diabetes Prediction dataset by Mohammed Mustafa was retrieved from Kaggle:(https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset). The dataset has 100, 000 rows across 9 columns:
+The Diabetes Prediction dataset by Mohammed Mustafa was retrieved from Kaggle: (https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset). The dataset has 100, 000 rows across 9 columns:
 
 - Gender - refers to the biological sex of the individual, which can have an impact on their susceptibility to diabetes.
   
